@@ -1,5 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
-body {
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+.card{
+  width: 50%;
+  margin: 0 auto;
+}
+
+img {
+  border: 3px solid rgb(39, 35, 35);
+  width: 150px;
+  border-radius: 50%;
+}
+
+li {
+  display: list-item;
+  color: black;
+  text-align: -webkit-match-parent;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1{
+  font-family: Poppins;
+  color: black;
+  text-align: center;
+}
+/* body {
   background: linear-gradient(grey,rgb(242, 242, 246));
   color: #3b425b;
   font-family: 'Lora', serif;
@@ -10,20 +41,9 @@ body {
   overflow-y: scroll;
 }
 
-.all{
-  width: 100%;
-  margin: 0 auto;
-  
 }
-li {
-  display: list-item;
-  color: black;
-  text-align: -webkit-match-parent;
-  margin: 0 auto;
-}
-ul {
-  list-style-type: none;
-}
+
+
 ::marker {
   unicode-bidi: isolate;
   font-variant-numeric: tabular-nums;
@@ -32,21 +52,12 @@ ul {
   text-align: start !important;
   text-align-last: start !important;
 }
-img {
-  border: 3px solid rgb(39, 35, 35);
-  width: 150px;
-  border-radius: 50%;
-}
+
 li::marker {
   color: black;
   align-items: center;
 }
-h1{
-  font-family: Poppins;
-  color: black;
-  text-align: center;
-  margin-left: 45px;
-}
+
 .link{
   border-radius: 15px;
   text-decoration: dashed;
@@ -141,4 +152,4 @@ a{
     margin-left: 10%;
     margin-right: 10%;
   }
-}
+} */

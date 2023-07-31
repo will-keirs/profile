@@ -43,18 +43,20 @@ h1{
   margin-left: 45px;
 }
 .link{
+  -moz-box-align: center;
   border-radius: 15px;
   text-decoration: dashed;
   color:rgb(63, 156, 156);
   margin: 10px, 10px, 10px, 10px;
 }
 .container{
+  -moz-box-align: center;
   text-align: center;
   border: 1px solid rgb(90, 77, 77);
   border: #3b425b, 10px;
   border-radius: 15%;
-  width: 500px;   /* Définit la largeur */
-  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+  width: 500px;   
+  margin: 0 auto; 
   background-color: gray;
   background-image: url("images/OPN0320.jpg");
   font-size: 20px;
@@ -63,6 +65,7 @@ h1{
 
 }
 .social{
+  -moz-box-align: center;
   font-size: 14px;
   background: linear-gradient(rgb(244, 155, 155),rgb(242, 242, 246));
   border-radius: 15%;

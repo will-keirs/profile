@@ -50,6 +50,7 @@ h1{
   margin: 10%;
 }
 .container{
+  align-self: center;
   text-align: center;
   border: 1px solid rgb(90, 77, 77);
   border: #3b425b, 10px;

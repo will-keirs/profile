@@ -9,6 +9,8 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
   overflow-y: scroll;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 li {
   display: list-item;
@@ -28,7 +30,7 @@ ul {
   text-align-last: start !important;
 }
 img {
-  border: 3px solid rgb(62, 53, 53);
+  border: 3px solid rgb(39, 35, 35);
   width: 150px;
   border-radius: 50%;
 }
@@ -43,19 +45,18 @@ h1{
   margin-left: 45px;
 }
 .link{
-  -moz-box-align: center;
   border-radius: 15px;
   text-decoration: dashed;
   color:rgb(63, 156, 156);
+  margin: 10%;
 }
 .container{
-  -moz-box-align: center;
   text-align: center;
   border: 1px solid rgb(90, 77, 77);
   border: #3b425b, 10px;
   border-radius: 15%;
   width: 500px;   
-  margin: 3%; 
+  margin: 10%; 
   background-color: gray;
   background-image: url("images/OPN0320.jpg");
   font-size: 20px;
@@ -64,12 +65,11 @@ h1{
 
 }
 .social{
-  -moz-box-align: center;
   font-size: 14px;
   background: linear-gradient(rgb(244, 155, 155),rgb(242, 242, 246));
   border-radius: 15%;
   width: 120px;
-  margin: 3%; 
+  margin: 10%; 
 }
 a{
   color: rgb(71, 23, 23);

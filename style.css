@@ -50,10 +50,12 @@ h1{
   padding-bottom: 15px;
 }
 .fa-github-square{
-  font-size: 2em;
+  font-size: 3em;
   padding-bottom: 20px;
+  margin: 0 auto;
 }
-/* body {
+
+.body {
   background: linear-gradient(grey,rgb(242, 242, 246));
   color: #3b425b;
   font-family: 'Lora', serif;
@@ -62,11 +64,8 @@ h1{
   -ms-overflow-style: none;
   scrollbar-width: none;
   overflow-y: scroll;
-}
-
-}
-
-
+} 
+/* 
 ::marker {
   unicode-bidi: isolate;
   font-variant-numeric: tabular-nums;
@@ -104,15 +103,12 @@ li::marker {
   border-radius: 5px;
   margin: 2%; 
   padding-bottom: 15px;
-}
+} */
 
 a{
   color: rgb(71, 23, 23);
   text-decoration: none;
-  margin-left: auto;
-  margin-right: auto;
   border-radius: 5px;
-  margin: 2%; 
   padding-bottom: 15px;
 }
 .cat{
@@ -121,14 +117,12 @@ a{
 
 @media (max-width: 960px) {
   .container {
+    width: 700px;
     margin-left: 10%;
     margin-right: 10%;
   }
-  .social {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-  .link {
+  .card {
+    width: 500px;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -136,14 +130,12 @@ a{
 
 @media (max-width: 720px) {
   .container {
+    width: 500px;
     margin-left: 10%;
     margin-right: 10%;
   }
-  .social {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-  .link {
+  .card {
+    width: 300px;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -152,15 +144,13 @@ a{
 @media (max-width: 540px) {
 
   .container {
+    width: 400px;
     margin-left: 10%;
     margin-right: 10%;
   }
-  .social {
+  .card {
+    width: 180px;
     margin-left: 10%;
     margin-right: 10%;
   }
-  .link {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-} */
+} 

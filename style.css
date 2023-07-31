@@ -28,8 +28,8 @@ ul {
   text-align-last: start !important;
 }
 img {
-  border: 5px solid rgb(90, 77, 77);
-  width: 25%;
+  border: 3px solid rgb(62, 53, 53);
+  width: 150px;
   border-radius: 50%;
 }
 li::marker {
@@ -57,31 +57,30 @@ h1{
   border: 1px solid rgb(90, 77, 77);
   border: #3b425b, 10px;
   border-radius: 15%;
-  width: 90%;   
+  width: 500px;   
   margin: 3%; 
   margin-left: 25%;
   margin-right: 25%;
   background-color: gray;
   background-image: url("images/OPN0320.jpg");
   font-size: 20px;
-  padding: 25%;
+  padding: 40px;
   color: rgb(34, 10, 49);
 
 }
 .social{
-  text-align: center;
   -moz-box-align: center;
   font-size: 14px;
   background: linear-gradient(rgb(244, 155, 155),rgb(242, 242, 246));
   border-radius: 15%;
-  width: 15%;
+  width: 120px;
   margin: 3%; 
   margin-left: 25%;
   margin-right: 25%;
 }
 a{
   color: rgb(71, 23, 23);
-  padding: 25%;
+  padding: 25px;
   margin:0%;
   text-decoration: none;
 }
@@ -94,21 +93,14 @@ a{
 }
 @media (max-width: 960px) {
   .container {
-    margin-bottom: 10%;
-    margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
-    width: 700px;
   }
   .social {
-    margin-bottom: 10%;
-    margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
   }
   .link {
-    margin-bottom: 10%;
-    margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -116,21 +108,14 @@ a{
 
 @media (max-width: 720px) {
   .container {
-    margin-bottom: 10%;
-    margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
-    width: 500px;
   }
   .social {
-    margin-bottom: 10%;
-    margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
   }
   .link {
-    margin-bottom: 10%;
-    margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -139,21 +124,14 @@ a{
 @media (max-width: 540px) {
 
   .container {
-    margin-bottom: 10%;
-    margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
-    width: 300px;
   }
   .social {
-    margin-bottom: 10%;
-    margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
   }
   .link {
-    margin-bottom: 10%;
-    margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
   }

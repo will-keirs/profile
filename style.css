@@ -29,7 +29,7 @@ ul {
 }
 img {
   border: 5px solid rgb(90, 77, 77);
-  width: 150px;
+  width: 25%;
   border-radius: 50%;
 }
 li::marker {
@@ -57,14 +57,14 @@ h1{
   border: 1px solid rgb(90, 77, 77);
   border: #3b425b, 10px;
   border-radius: 15%;
-  width: 500px;   
+  width: 90%;   
   margin: 3%; 
   margin-left: 25%;
   margin-right: 25%;
   background-color: gray;
   background-image: url("images/OPN0320.jpg");
   font-size: 20px;
-  padding: 40px;
+  padding: 25%;
   color: rgb(34, 10, 49);
 
 }
@@ -74,14 +74,14 @@ h1{
   font-size: 14px;
   background: linear-gradient(rgb(244, 155, 155),rgb(242, 242, 246));
   border-radius: 15%;
-  width: 120px;
+  width: 15%;
   margin: 3%; 
   margin-left: 25%;
   margin-right: 25%;
 }
 a{
   color: rgb(71, 23, 23);
-  padding: 25px;
+  padding: 25%;
   margin:0%;
   text-decoration: none;
 }

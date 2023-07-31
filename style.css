@@ -2,10 +2,18 @@
 .container{
   width: 100%;
   margin: 0 auto;
+  text-align: center;
 }
 .card{
-  width: 50%;
-  margin: 0 auto;
+  text-align: center;
+  width: 150px;
+  margin: 2%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 1%;
+  border-radius: 5px;
+  box-shadow: 3px 3px 8px #3b2c2154;
+  padding-bottom: 15px;
 }
 
 img {
@@ -15,10 +23,9 @@ img {
 }
 
 li {
-  display: list-item;
+  display: inline;
   color: black;
   text-align: -webkit-match-parent;
-  margin: 0 auto;
 }
 
 ul {
@@ -29,6 +36,21 @@ h1{
   font-family: Poppins;
   color: black;
   text-align: center;
+}
+
+.social{
+  font-size: 14px;
+  background: linear-gradient(rgb(244, 155, 155),rgb(242, 242, 246));
+  border-radius: 15%;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 2%; 
+  padding-bottom: 15px;
+}
+.fa-github-square{
+  font-size: 2em;
+  padding-bottom: 20px;
 }
 /* body {
   background: linear-gradient(grey,rgb(242, 242, 246));
@@ -82,16 +104,7 @@ li::marker {
   margin: 2%; 
   padding-bottom: 15px;
 }
-.social{
-  font-size: 14px;
-  background: linear-gradient(rgb(244, 155, 155),rgb(242, 242, 246));
-  border-radius: 15%;
-  width: 120px;
-  margin-left: auto;
-  margin-right: auto;
-  margin: 2%; 
-  padding-bottom: 15px;
-}
+
 a{
   color: rgb(71, 23, 23);
   text-decoration: none;
@@ -104,10 +117,7 @@ a{
 .cat{
   font-size: 5em;
 }
-.fa-github-square{
-  font-size: 2em;
-  padding-bottom: 20px;
-}
+
 @media (max-width: 960px) {
   .container {
     margin-left: 10%;

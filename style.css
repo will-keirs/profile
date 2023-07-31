@@ -14,6 +14,7 @@
   width: 700px;
   margin: 0 auto;
   text-align: center;
+   border: 1px solid rgb(90, 77, 77);
 }
 .card{
   background-color: rgba(96, 22, 22, 0.411);
@@ -91,7 +92,7 @@ li::marker {
 }
 .container{
   text-align: center;
-  border: 1px solid rgb(90, 77, 77);
+ 
   border-radius: 15%;
   width: 500px;   
   box-shadow: 3px 3px 8px #3204047a;
@@ -124,6 +125,9 @@ a{
   .card {
     width: 500px;
   }
+  .social{
+    width: 300px;
+  }
 }
 
 @media (max-width: 720px) {
@@ -132,6 +136,9 @@ a{
   }
   .card {
     width: 300px;
+  }
+  .social{
+    width: 180px;
   }
 }
 
@@ -142,5 +149,8 @@ a{
   }
   .card {
     width: 180px;
+  }
+  .social{
+    width: 90px;
   }
 } 

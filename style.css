@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+.body {
+  background: linear-gradient(grey,rgb(242, 242, 246));
+  color: #3b425b;
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  text-align: center;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll;
+} 
+
 .container{
   width: 700px;
   margin: 0 auto;
@@ -24,7 +35,7 @@ img {
 }
 
 li {
-  display: inline;
+  display: center;
   color: black;
   text-align: -webkit-match-parent;
 }
@@ -55,16 +66,7 @@ h1{
   margin: 0 auto;
 }
 
-.body {
-  background: linear-gradient(grey,rgb(242, 242, 246));
-  color: #3b425b;
-  font-family: 'Lora', serif;
-  font-size: 18px;
-  text-align: center;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-  overflow-y: scroll;
-} 
+
 /* 
 ::marker {
   unicode-bidi: isolate;
@@ -118,26 +120,18 @@ a{
 @media (max-width: 960px) {
   .container {
     width: 700px;
-    margin-left: 10%;
-    margin-right: 10%;
   }
   .card {
     width: 500px;
-    margin-left: 10%;
-    margin-right: 10%;
   }
 }
 
 @media (max-width: 720px) {
   .container {
     width: 500px;
-    margin-left: 10%;
-    margin-right: 10%;
   }
   .card {
     width: 300px;
-    margin-left: 10%;
-    margin-right: 10%;
   }
 }
 
@@ -145,12 +139,8 @@ a{
 
   .container {
     width: 400px;
-    margin-left: 10%;
-    margin-right: 10%;
   }
   .card {
     width: 180px;
-    margin-left: 10%;
-    margin-right: 10%;
   }
 } 

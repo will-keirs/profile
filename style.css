@@ -5,7 +5,7 @@ body {
   font-family: 'Lora', serif;
   font-size: 18px;
   text-align: center;
-  width: auto;
+  width: 75%;
   -ms-overflow-style: none;
   scrollbar-width: none;
   overflow-y: scroll;
@@ -54,7 +54,6 @@ h1{
 .container{
   text-align: center;
   border: 1px solid rgb(90, 77, 77);
-  border: #3b425b, 10px;
   border-radius: 15%;
   width: 500px;   
   box-shadow: 3px 3px 8px #3204047a;
@@ -95,7 +94,7 @@ a{
   font-size: 2em;
   padding-bottom: 20px;
 }
-/* @media (max-width: 960px) {
+@media (max-width: 960px) {
   .container {
     margin-left: 10%;
     margin-right: 10%;
@@ -139,4 +138,4 @@ a{
     margin-left: 10%;
     margin-right: 10%;
   }
-} */
+}

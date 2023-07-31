@@ -97,7 +97,7 @@ a{
   font-size: 2em;
   padding-bottom: 20px;
 }
-@media (max-width: 960px) {
+/* @media (max-width: 960px) {
   .container {
     margin-left: 10%;
     margin-right: 10%;
@@ -141,4 +141,4 @@ a{
     margin-left: 10%;
     margin-right: 10%;
   }
-}
+} */

@@ -84,15 +84,21 @@ a{
 }
 @media (max-width: 960px) {
   .container {
+    margin-bottom: 10%;
+    margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
     width: 700px;
   }
   .social {
+    margin-bottom: 10%;
+    margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
   }
   .link {
+    margin-bottom: 10%;
+    margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -100,15 +106,21 @@ a{
 
 @media (max-width: 720px) {
   .container {
+    margin-bottom: 10%;
+    margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
     width: 500px;
   }
   .social {
+    margin-bottom: 10%;
+    margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
   }
   .link {
+    margin-bottom: 10%;
+    margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -117,15 +129,21 @@ a{
 @media (max-width: 540px) {
 
   .container {
+    margin-bottom: 10%;
+    margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
     width: 300px;
   }
   .social {
+    margin-bottom: 10%;
+    margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
   }
   .link {
+    margin-bottom: 10%;
+    margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
   }
